@@ -1,3 +1,11 @@
-button {
-    cursor: pointer;
+.btn-container {
+    background-color: black;
+}
+  
+.btn {
+    border: none;
+}
+  
+.btn--play {
+    color: white;
 }
