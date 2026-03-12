@@ -9,7 +9,30 @@
 
 .video-container{
     flex: 1;
-    flex-grow: 1;
+}
+
+.viewing-panel{
+    color: white;
+    flex: 1;
+    display: flex;
+    font-size: 14pt;
+    align-items: center;
+    gap: 8px;
+}
+
+.viewing-time{
+    flex-shrink: 0;
+}
+
+.viewing-progressbar {
+    flex: 1;
+    text-align: center;
+}
+
+.video-duration {
+    text-align: right;
+    margin-left: auto;
+    flex-shrink: 0;
 }
 
 .bottom-controls {
@@ -41,8 +64,14 @@
 .left-buttons {
     display: flex;
     gap: 5px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .right-buttons {
     display: flex;
+    gap: 5px;
 }
