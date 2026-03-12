@@ -18,9 +18,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 6px 2px;
 }
   
-.bottom-controls button {
+.control-button {
     border: none;
     margin: 0;
     background-color: transparent;
@@ -30,7 +31,7 @@
     cursor: pointer;
 }
   
-.bottom-controls button i {
+.control-button__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +40,7 @@
 
 .left-buttons {
     display: flex;
+    gap: 5px;
 }
 
 .right-buttons {
